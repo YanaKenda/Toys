@@ -1,0 +1,13 @@
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\obj\Debug\ToyContract.csprojResolveAssemblyReference.cache
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\bin\Debug\ToyContract.dll
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\bin\Debug\ToyContract.pdb
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\obj\Debug\ToyContract.dll
+c:\Users\Yana\documents\visual studio 2013\Projects\Toys\ToyContract\obj\Debug\ToyContract.pdb
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\bin\Debug\ToyContract.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\bin\Debug\ToyContract.pdb
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\bin\Debug\Newtonsoft.Json.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\bin\Debug\Newtonsoft.Json.xml
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\obj\Debug\ToyContract.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\ToyContract\obj\Debug\ToyContract.pdb

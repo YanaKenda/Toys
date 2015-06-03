@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMainToy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainToy xsi:type="Car">
+    <Name>f</Name>
+    <AgeChild>4</AgeChild>
+    <HardLevel>m</HardLevel>
+    <TypeWheels>задний</TypeWheels>
+    <KindControl>руль</KindControl>
+  </MainToy>
+</ArrayOfMainToy>

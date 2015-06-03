@@ -1,0 +1,11 @@
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\Plugin.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\Plugin.pdb
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\Newtonsoft.Json.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\ToyContract.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\ToyContract.pdb
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\Newtonsoft.Json.xml
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\obj\Debug\Plugin.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\obj\Debug\Plugin.pdb
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\PluginContracts.dll
+E:\4 term\LABS\2 Ready\ООТПиСП\Toys\Plugin\bin\Debug\PluginContracts.pdb

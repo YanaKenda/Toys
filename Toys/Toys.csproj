@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EEE1B09-0FE1-4D73-8FB7-28B78C23686A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Toys</RootNamespace>
+    <AssemblyName>Toys</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="JsonSerializationPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\JsonSerializationPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter\JsonSerializationAdapter.cs" />
+    <Compile Include="Adapter\IJsonSerializationTarget.cs" />
+    <Compile Include="AllToys\Bear.cs" />
+    <Compile Include="AllToys\Car.cs" />
+    <Compile Include="Creator\CarCreator.cs" />
+    <Compile Include="AllToys\Doll.cs" />
+    <Compile Include="AllToys\Plain.cs" />
+    <Compile Include="Creator\Creator.cs" />
+    <Compile Include="Creator\PlainCreator.cs" />
+    <Compile Include="AllToys\Soldier.cs" />
+    <Compile Include="AllToys\Whirligig.cs" />
+    <Compile Include="Creator\BearCreator.cs" />
+    <Compile Include="Creator\DollCreator.cs" />
+    <Compile Include="Creator\SoldierCreator.cs" />
+    <Compile Include="Creator\WhirligigCreator.cs" />
+    <Compile Include="EditingCreator\BearEditingCreator.cs" />
+    <Compile Include="EditingCreator\CarEditingCreator.cs" />
+    <Compile Include="EditingCreator\DollEditingCreator.cs" />
+    <Compile Include="EditingCreator\PlainEditingCreator.cs" />
+    <Compile Include="EditingCreator\SoldierEditingCreator.cs" />
+    <Compile Include="EditingCreator\WhirligigEditingCreator.cs" />
+    <Compile Include="Fields\BearFields.cs" />
+    <Compile Include="Fields\CarFields.cs" />
+    <Compile Include="Fields\DollFields.cs" />
+    <Compile Include="Fields\PlainFields.cs" />
+    <Compile Include="Fields\SoldierFields.cs" />
+    <Compile Include="Fields\WhirligigFields.cs" />
+    <Compile Include="Fields\PropertyFieldsRepository.cs" />
+    <Compile Include="Repository\ListRepository.cs" />
+    <Compile Include="PluginController.cs" />
+    <Compile Include="Repository\EditingCreatorRepository.cs" />
+    <Compile Include="Repository\ListToy.cs" />
+    <Compile Include="Repository\ToyTypesRepository.cs" />
+    <Compile Include="Toy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toy.Designer.cs">
+      <DependentUpon>Toy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Toy.resx">
+      <DependentUpon>Toy.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginContracts\PluginContracts.csproj">
+      <Project>{02b47679-fa98-4857-84dd-8c8b790aaa75}</Project>
+      <Name>PluginContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToyContract\ToyContract.csproj">
+      <Project>{40786a6b-f759-46ed-8599-347a5f92ec42}</Project>
+      <Name>ToyContract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
